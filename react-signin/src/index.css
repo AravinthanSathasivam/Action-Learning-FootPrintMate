@@ -1,0 +1,292 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* calculator styles start */
+
+.custom-input{
+  padding-left: 10px;
+  padding-bottom: 5px;
+  border: 1px solid #B1B1B1;
+  background: #FAF8F8;
+  width: 450px;
+  /* height: 40px; */
+  border-radius: 0px !important;
+}
+
+.custom-dropdown{
+  width: 56%;
+  background: #FAF8F8;
+}
+
+button{
+  background-color: #03A64A;
+  color: #ffffff;
+  border: unset;
+}
+
+button:hover{
+  color: #ffffff;
+  background-color: #215759 !important;
+}
+
+.secondary-btn{
+  border: 2px solid #03A64A !important;
+  color: #03A64A !important;
+  background-color: #fff !important;
+}
+
+.secondary-btn:hover{
+  border: 2px solid #215759 !important;
+  color: #215759 !important;
+  background-color: #fff !important;
+}
+
+.btn-big{
+  border-radius: 4px;
+  width: 450px;
+  height: 45px;
+}
+
+.btn-medium{
+  background-color: #03A64A !important;
+  color: #ffffff !important;
+  border: unset;
+  border-radius: 4px;
+  width: 180px !important;
+  height: 40px;
+}
+
+.btn-small{
+  width: 100px !important;
+  height: 35px;
+}
+
+
+.toggle-custom button{
+  text-transform: lowercase !important;
+}
+
+
+.toggle-custom button:hover{
+  color: unset !important;
+  background: transparent !important;
+}
+
+.toggle-custom button:active{
+  background-color: transparent !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+  color: #03A64A !important; 
+}
+
+.css-1aquho2-MuiTabs-indicator{
+  background-color: #03A64A !important;
+}
+
+.carbonSuccess{
+  margin-top: 20px;
+  color: #090909;
+  text-align: center;
+  padding: 20px;
+  background: #D9FFE5;
+
+}
+
+.carbonError{
+  margin-top: 20px;
+    color: #090909;
+    text-align: center;
+    padding: 20px;
+    background: #FFD8DA;
+}
+
+
+.Game-page{
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drawer-custom{
+  width: 100%;
+}
+
+
+/* Home page style */
+
+.hero-page{
+  text-align: center;
+  margin-top: 20px !important;
+  background-color: #fff;
+}
+
+.green-text{
+  color: #215759;
+  text-align: center;
+  font-size: 30px;
+font-weight: 700;
+margin-bottom: 5px !important;
+}
+
+.hero-paragraph{
+  color: #000;
+font-size: 18px;
+font-style: italic;
+font-weight: 400;
+}
+
+.second-paragraph{
+  text-align: center;
+  color: #000000;
+  font-size: 17px;
+  font-weight: 400;
+  max-width: 850px !important;
+
+}
+
+
+.home-img-01{
+    width: 380px !important;
+}
+
+.second-page{
+  text-align: center;
+  padding: 30px;
+  justify-content: center;
+  background-color: #DEF7E5;
+}
+
+.navBar-home{
+  display: flex;
+  justify-content: space-between;
+  background-color: #F9F9F9;
+  border-bottom: 1px solid #B1B1B1 ;
+}
+
+.nav-logo{
+  padding-left: 10px;
+  height: 60px;
+}
+
+.card-main{
+  margin-top: 30px;
+  margin: auto;
+  width: 55%;
+  height: 70vh;
+}
+
+.signup-img{
+  width: 740px;
+}
+
+.login-img{
+  transform: scaleX(-1);
+  width: 740px;
+}
+
+.signup-card{
+  height: 70vh;
+}
+
+.sign-left{
+  margin-bottom: auto !important;
+    margin-top: auto !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+
+.sign-right{
+  display: flex;
+  align-items: center;
+  background-color: #DEF7E5;
+}
+
+.text-green{
+  color: #03A64A !important;
+}
+
+
+.active-selection {
+  background-color: #03A64A;
+  color: #fff !important;
+}
+
+.active-selection:hover {
+  color: #fff !important;
+}
+
+a:hover{
+  color: #03A64A !important;
+}
+
+a{
+  color: #4a4a4a !important;
+}
+
+
+/* dashboard style */
+
+.dashboard-container{
+  padding: 50px;
+}
+
+.dashboard-img{
+  height: 140px;
+}
+
+.dash-card-carbon{
+  background-color: #F2F8FF !important;
+}
+
+.dash-card-green{
+  background-color: #E0FFFA !important;
+}
+
+.dash-text-icon-blue{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 20px;
+    background: #4A72A0;
+    width: 120px !important;
+    height: 30px;
+}
+
+.bold-text-blue{
+  font-weight: bold !important;
+  color: #4A72A0;
+}
+
+.bold-text-green{
+  font-weight: bold !important;
+  color: #095A52;
+
+}
+
+.dash-text-icon-green{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 20px;
+    background: #02B697;
+    width: 120px !important;
+    height: 30px;
+
+}
